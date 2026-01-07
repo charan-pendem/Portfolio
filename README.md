@@ -2,7 +2,6 @@ Charan Pendem – Portfolio Website
 
 
 Live Demo:
-(Update this link after deployment)
 
 ====================================
 PROJECT OVERVIEW
