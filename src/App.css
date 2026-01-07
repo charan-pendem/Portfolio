@@ -1,0 +1,173 @@
+/* ================= GLOBAL ================= */
+
+.App {
+  text-align: center;
+}
+
+/* ================= HOME SECTION ================= */
+
+.home-section {
+  min-height: 100vh;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.home-content {
+  padding-top: 0;
+}
+
+.hero-row {
+  min-height: 65vh;
+}
+
+/* ================= LEFT TEXT ================= */
+
+.home-text {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.heading {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.heading-name {
+  font-size: 3.6rem;
+  margin-bottom: 15px;
+}
+
+.main-name {
+  color: #b16cff;
+}
+
+.typewriter-wrapper {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* ================= SOCIAL ICONS ================= */
+
+.hero-socials a {
+  font-size: 1.8rem;
+  margin-right: 18px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.hero-socials a:hover {
+  color: #b16cff;
+}
+
+/* ================= RIGHT IMAGE ================= */
+
+.hero-image-col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.profile-img {
+  max-width: 340px;
+  width: 70%;
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.28);
+}
+
+/* ================= WHAT I DO ================= */
+.what-i-do-section,
+.what-i-do,
+.what-item {
+  pointer-events: auto;
+}
+
+.what-i-do-section {
+  margin-top: 25px;
+  padding: 22px 20px;                 /* reduced size */
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.what-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  color: #b16cff;
+}
+
+.what-i-do {
+  display: flex;
+  gap: 20px;                          /* tighter spacing */
+  flex-wrap: wrap;
+}
+.what-item {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.what-item:hover {
+  transform: translateY(-4px) scale(1.04);
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 22px rgba(177, 108, 255, 0.45);
+}
+
+.what-item:hover h4 {
+  color: #b16cff;
+}
+
+.what-item h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.what-item p {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+  line-height: 1.5;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.home-about-section {
+  padding: 80px 0;
+}
+
+.home-about-description h1 {
+  font-size: 2.6rem;
+  margin-bottom: 25px;
+}
+
+.home-about-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-img {
+  max-width: 320px;
+}
+
+/* ================= ACCENT COLOR ================= */
+
+.yellow {
+  color: #b16cff;
+}
+canvas,
+.particles-js,
+#tsparticles {
+  pointer-events: none !important;
+}
